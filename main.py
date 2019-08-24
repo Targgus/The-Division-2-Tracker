@@ -27,7 +27,7 @@ class baseInfo():
         self.timeplayed = timeplayed
         
 # initialize class and populate data
-x = baseInfo(
+data = baseInfo(
     username = baseInfoData['platformInfo']['platformUserHandle'],
     timeplayed = baseInfoData['segments'][0]['stats']['timePlayed']['displayValue']
     )
