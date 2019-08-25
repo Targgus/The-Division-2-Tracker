@@ -4,26 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Targgus Division 2 Tracker</title>
+    <title>Document</title>
 </head>
 <body>
 
-    <form action="" method="POST">
-        <input type="text" name="username" id="" >
-        <input type="submit" value='Submit'>
-    </form>
-
-    {% if message %}
-        <h6>{{ message }}</h6>
-    {% endif %}
-
-    {% if data %}
+    
+    {% if messages %}
         <h6>{{ data.username }}</h6>
         <h6>{{ data.playerLevel }}</h6>
         <h6>{{ data.gearScore }}</h6>
         <h6>{{ data.timeplayed }}</h6>
     {% endif %}
-    
+   
     
 </body>
 </html>
